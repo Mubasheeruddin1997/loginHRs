@@ -21,7 +21,7 @@ public class TC_login {
 			
 			driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 			
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
 		
 			driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
 			driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
