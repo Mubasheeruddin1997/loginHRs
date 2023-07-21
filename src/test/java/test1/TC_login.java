@@ -23,7 +23,7 @@ public class TC_login {
 			
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(6));
 		
-			driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
+			driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin@mubasheeruddin");
 			driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
 			driver.findElement(By.xpath("//button[@type='submit']")).click();
 			
